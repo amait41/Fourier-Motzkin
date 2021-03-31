@@ -2,7 +2,7 @@
 
 On considère un problème de minimisation sous forme standard : <br>
 <br>
-\\[
+\(
 \left\{
     \begin{array}{ll}
         min f(x) = \sum\limits^{n}_{j=1} c_jx_j = c^Tx \\
@@ -10,7 +10,7 @@ On considère un problème de minimisation sous forme standard : <br>
         x_j \geq 0, \: j=1, \cdots, n \Leftrightarrow x \geq 0 \\
     \end{array}
 \right.
-\\]
+\)
 <br>
 où $x= (x_1, \cdots, x_n)^T \in \mathbb{R}^n, \: c=(c_1, \cdots, c_n)^T \in \mathbb{R}^n,\: b=(b_1, \cdots, b_r) \in \mathbb{R}^r, \: A \in \mathcal{M_{r,n}}(\mathbb{R})$.<br>
 Ecrivons une fonction Python `FourierMotzkin(A,b,c)` qui retourne la liste $(min f, x_1, · · · , x_n)$
